@@ -1,4 +1,94 @@
+/*?font-family: 'Roboto', sans-serif;*/
 body{
     font-family: 'Raleway', sans-serif;
 }
-/*?font-family: 'Roboto', sans-serif;*/
+
+ul{
+    list-style: none;
+}
+
+.logo{
+color: blue;
+text-decoration: none;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.logo-part{
+color: black;
+text-decoration: none;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.nav{
+color: black;
+text-decoration: none;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.contacts{
+color: black;
+font-family: Roboto, sans-serif;
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50;  
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.hero-title{
+    background: #2E2F42;
+}
+
+.title{
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.button{
+background-color: #4d5ae5;
+color: white;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+.hero-text{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.40px;
+}
+
+p {
+
+    color: #434455;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
