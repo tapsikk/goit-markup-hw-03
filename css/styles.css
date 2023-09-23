@@ -64,8 +64,8 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 
-.address:hover,
-.address:focus{
+.address-link:hover,
+.address-link:focus{
 color: #404bbf;
 }
 
