@@ -104,9 +104,17 @@ letter-spacing: 0.02em;
 word-wrap: break-word
 }
 
+.hero-text-p{
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+word-wrap: break-word
+}
 
 .our-team-background{
-    background-color: #f4f4fd;
+background-color: #f4f4fd;
 }
 
 .our-team{
@@ -121,7 +129,16 @@ letter-spacing: 0.02em;
 }
 
 .team-list {
-    background-color: #ffffff;
+background-color: #ffffff;
+}
+
+.our-team-p {
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+word-wrap: break-word
 }
 
 .our-portfolio{
