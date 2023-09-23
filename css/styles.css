@@ -136,23 +136,23 @@ letter-spacing: 0.02em;
 word-wrap: break-word
 }
 
-.portfolio-p{
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.2em;
-word-wrap: break-word
-}
 
 .text-portfolio{
-text-align: center;
 color: #2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 word-wrap: break-word
+}
+
+.portfolio-headings {
+    color: #2e2f42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
 }
 
 .footer-color{
