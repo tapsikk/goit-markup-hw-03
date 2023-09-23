@@ -2,7 +2,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 ul{
@@ -33,7 +33,7 @@ text-align: left;
 }
 
 .nav{
-color: #2E2F42;
+color: #2e2f42;
 text-decoration: none;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -43,20 +43,30 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 
+.nav:hover,
+.nav:focus{
+color: #404bbf;
+}
+
 .address{
+text-decoration: none;
 color: #434455;
 font-family: "Roboto", sans-serif;
 font-style: normal;
-text-decoration: none;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.50;  
+line-height: 1.5;  
 letter-spacing: 0.02em;
 text-align: left;
 }
 
+.address:hover,
+.address:focus{
+color: #404bbf;
+}
+
 .hero-title{
-background: #2E2F42;
+background: #2e2f42;
 }
 
 .title{
@@ -82,11 +92,11 @@ cursor: pointer;
 
 .button:hover,
 .button:focus{
-background-color: #404BBF;
+background-color: #404bbf;
 }
 
 .hero-text{
-color: #2E2F42;
+color: #2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -96,7 +106,7 @@ word-wrap: break-word
 
 
 .our-team-background{
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
 }
 
 .our-team{
@@ -111,12 +121,12 @@ letter-spacing: 0.02em;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .our-portfolio{
 text-align: center;
-color: #2E2F42;
+color: #2e2f42;
 font-size: 36px;
 font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -126,9 +136,18 @@ letter-spacing: 0.02em;
 word-wrap: break-word
 }
 
+.portfolio-p{
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.2em;
+word-wrap: break-word
+}
+
 .text-portfolio{
 text-align: center;
-color: #2E2F42;
+color: #2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -137,12 +156,12 @@ word-wrap: break-word
 }
 
 .footer-color{
-background-color: #2E2F42;
+background-color: #2e2f42;
 }
 
 .footer-logo{
 text-decoration: none;
-color: #4D5AE5;
+color: #4d5ae5;
 font-size: 18px;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -154,7 +173,7 @@ word-wrap: break-word
 
 .footer-logo-part{
 text-decoration: none;
-color: #F4F4FD;
+color: #f4f4fd;
 font-size: 18px;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -167,7 +186,7 @@ word-wrap: break-word
 
 .footer-text{
 
-color: #F4F4FD;
+color: #f4f4fd;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
