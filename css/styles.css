@@ -141,6 +141,7 @@ background-color: #2E2F42;
 }
 
 .footer-logo{
+text-decoration: none;
 color: #4D5AE5;
 font-size: 18px;
 font-family: "Raleway", sans-serif;
@@ -152,7 +153,7 @@ word-wrap: break-word
 }
 
 .footer-logo-part{
-
+text-decoration: none;
 color: #F4F4FD;
 font-size: 18px;
 font-family: "Raleway", sans-serif;
@@ -161,6 +162,7 @@ text-transform: uppercase;
 line-height: 1.16;
 letter-spacing: 0.03em;
 word-wrap: break-word
+
 }
 
 .footer-text{
