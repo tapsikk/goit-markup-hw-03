@@ -46,6 +46,11 @@ p {
   word-wrap: break-word;
 }
 
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -54,14 +59,13 @@ p {
 
 .header-container {
   display: flex;
-  padding: 24px 0px;
   justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+  
 }
 
 .nav-hero {
   display: flex;
+  align-items: center;
 }
 
 .hero-logo {
