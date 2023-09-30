@@ -57,6 +57,7 @@ p {
   padding: 24px 0px;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-hero {
@@ -91,8 +92,7 @@ p {
 }
 
 .nav-menu {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   gap: 40px;
 }
 
@@ -176,6 +176,8 @@ p {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0);
   border: none;
+  display: block;
+  min-width: 169px
 }
 
 .button:hover,
@@ -332,7 +334,8 @@ margin-bottom: 32px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   word-wrap: break-word;
-  
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-part {
@@ -355,7 +358,6 @@ margin-bottom: 32px;
   word-wrap: break-word;
   color: var(--color-footer-tx);
   max-width: 264px;
-  margin-top: 16px;
 }
 
 .hero-text {
