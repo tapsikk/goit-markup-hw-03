@@ -60,7 +60,7 @@ p {
 .header-container {
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
 }
 
 .nav-hero {
@@ -207,12 +207,19 @@ p {
 
 .list-text {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .box-text {
   max-width: 264px;
   width: calc((100% - 72) / 3);
+}
+
+.hero-text-s2 {
+  color: var(--color-sub-title);
+  margin-bottom: 8px;
 }
 
 .hero-text-p {
