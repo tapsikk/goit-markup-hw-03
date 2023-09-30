@@ -288,7 +288,7 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
   word-wrap: break-word;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -331,7 +331,7 @@ margin-bottom: 32px;
   letter-spacing: 0.2px;
 }
 
-/*? --- Section 4 - "footer" --- */
+/*? ---  "footer" --- */
 
 .footer {
   background-color: #2e2f42;
