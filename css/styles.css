@@ -59,13 +59,14 @@ p {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .nav-hero {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -119,6 +120,8 @@ p {
 
 .header-address {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-list {
