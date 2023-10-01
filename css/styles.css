@@ -214,7 +214,7 @@ p {
 
 .box-text {
   max-width: 264px;
-  width: calc((100% - 72) / 3);
+  width: calc((100% - 72) / 4);
 }
 
 .hero-text-s2 {
@@ -236,6 +236,7 @@ p {
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -245,13 +246,14 @@ p {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
-  padding: 72px 0 120px;
 }
 
 .our-team-item {
