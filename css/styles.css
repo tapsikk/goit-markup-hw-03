@@ -198,7 +198,7 @@ p {
 
 /*? ---section 2--- */
 
-.plan-text {
+.description {
   padding: 120px 0;
 }
 
@@ -216,24 +216,24 @@ p {
   overflow: hidden;
 }
 
-.list-text {
+.description-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
 }
 
-.box-text {
+.description-item {
   max-width: 264px;
   width: calc((100% - 72) / 4);
 }
 
-.hero-text-s2 {
+.description-subtitle {
   color: var(--color-sub-title);
   margin-bottom: 8px;
 }
 
-.hero-text-p {
+.description-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
