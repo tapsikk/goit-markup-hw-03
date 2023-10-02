@@ -206,7 +206,6 @@ p {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -222,7 +221,7 @@ p {
 
 .description-item {
   max-width: 264px;
-  width: calc((100% - 72) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .description-subtitle {
@@ -310,6 +309,7 @@ p {
   gap: 48px 24px;
   margin: 0;
 }
+
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
